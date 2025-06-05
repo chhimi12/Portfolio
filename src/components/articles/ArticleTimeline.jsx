@@ -55,11 +55,11 @@ function ArticleTimelineItems({ dataWrapper, selectedItemCategoryId }) {
 function ArticleTimelineItem({ itemWrapper }) {
     return (
         <li className={`article-timeline-item`}>
-            <AvatarView src={itemWrapper?.img}
+            {/* <AvatarView src={itemWrapper?.img}
                         faIcon={itemWrapper?.faIcon}
                         style={itemWrapper?.faIconStyle}
                         alt={itemWrapper?.imageAlt}
-                        className={`article-timeline-item-avatar`}/>
+                        className={`article-timeline-item-avatar`}/> */}
 
             <ArticleItemInfoForTimelines className={`article-timeline-item-content`}>
                 <ArticleItemInfoForTimelinesHeader itemWrapper={itemWrapper}
