@@ -2,13 +2,13 @@
     "developerSettings": {
         "debugMode": false,
         "fakeEmailRequests": true,
-        "stayOnThePreloaderScreen": true,
+        "stayOnThePreloaderScreen": false,
         "version": "2.0.0"
     },
 
     "preloaderSettings": {
-        "enabled": false,
-        "title": "<strong>Chhimi Tashi </strong>",
+        "enabled": true,
+        "title": "<strong>Chhimi Tashi Sherpa </strong>",
         "subtitle": "Software Engineering | Data Analytics ",
         "logoOffset": {
             "right": 14,
