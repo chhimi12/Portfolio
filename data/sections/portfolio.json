@@ -1,0 +1,191 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                }
+            },
+            "settings": {
+                "categorize_by": [],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+               "items": [
+  {
+    "id": 1,
+    "categoryId": "category_apps",
+    "img": "images/pictures/LogoForApp.png",
+    "preview": {
+      "links": [
+        {
+          "href": "https://drive.google.com/file/d/11IBk10uHcQlEZEZB13ONrhfO01ssKe6N/view?usp=sharing",
+          "tooltipString": "see_demo",
+          "faIcon": "fa-brands fa-youtube"
+        }
+      ],
+      "screenshots": [
+        "images/pictures/guideconnect.png",
+        "images/pictures/guideconnect2.png",
+        "images/pictures/guideconnect3.png",
+        "images/pictures/guideconnect4.png"
+      ],
+      "screenshotsAspectRatio": "9:16",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Guide Connect",
+        "text": "A full-stack mobile app built with <b>React Native</b>, Express, and MongoDB. Designed to connect tourists with certified trekking guides in Nepal. Includes user authentication, filtering by region and experience, and booking functionality. Currently in development with live testing underway.",
+        "tags": ["React Native", "MongoDB", "Express", "Full Stack"]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "categoryId": "category_utilities",
+    "img": "",
+    "faIcon": "fa-solid fa-robot",
+    "preview": {
+      "links": [
+        {
+          "href": "https://drive.google.com/file/d/1lDimfox-jZKZNHqnAiG0y9A6dG9_zI1Q/view?usp=sharing",
+          "tooltipString": "see_demo",
+          "faIcon": "fa-brands fa-youtube"
+        }
+      ],
+      "screenshots": [],
+      "screenshotsAspectRatio": "",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Captcha Hacking Bot",
+        "text": "Created an AI-powered bot that bypasses Google reCAPTCHA using <b>Selenium</b> and <b>GPT-vision</b>. Evaluates the security limitations of common CAPTCHA systems through practical exploitation and automation.",
+        "tags": ["AI", "Automation", "Selenium", "OpenAI"]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "categoryId": "category_research",
+    "img": "",
+    "faIcon": "fa-solid fa-magnifying-glass",
+    "preview": {
+      "links": [
+        {
+          "href": "https://drive.google.com/file/d/1XNfwt5incmgPbJgogb6iSfO1DdIzS8dF/view",
+          "tooltipString": "view_research_paper",
+          "faIcon": "fa-solid fa-file-alt"
+        },
+          {
+          "href": "https://github.com/chhimi12/Pelican_detection",
+          "tooltipString": "see_on_github",
+          "faIcon": "fa-brands fa-github"
+        }
+      ],
+      "screenshots": [],
+      "screenshotsAspectRatio": "",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Tracking Pelican Horns with Deep Learning",
+        "text": "Led a research project published in the IEEE digital library. Used <b>YOLO</b> and <b>Python</b> to detect horn and beak variation in pelicans from field video data. Combined statistical analysis with computer vision for wildlife monitoring.",
+        "tags": ["YOLO", "Computer Vision", "Python", "Research"]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "categoryId": "category_web",
+    "img": "",
+    "faIcon": "fa-solid fa-globe",
+    
+    "preview": {
+      "links": [
+        {
+          "href": "https://github.com/cmpt375-2024spring/client-project-iddc",
+          "tooltipString": "see_on_github",
+          "faIcon": "fa-brands fa-github"
+        }
+      ],
+      "screenshots": [],
+      "screenshotsAspectRatio": "",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Utah Debate Association Website",
+        "text": "Built a dynamic website using <b>Django</b> and <b>SQLite</b>. Designed admin tools to manage content, event schedules, and debate results. Ensured mobile responsiveness and accessibility compliance.",
+        "tags": ["Django", "SQLite", "Admin Panel", "Responsive Design"]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "categoryId": "category_utilities",
+    "img": "",
+     "faIcon": "fa-solid fa-chart-line",
+    "preview": {
+      "links": [{ "href":"https://drive.google.com/file/d/1FPxUkmktymlT7XgZaqDRDbbj25t3hJo7/view?usp=sharing", "tooltipString": "view_research_paper",
+          "faIcon": "fa-solid fa-file-alt"},
+         {
+          "href": "https://github.com/chhimi12/Job-board-analysis",
+          "tooltipString": "see_on_github",
+          "faIcon": "fa-brands fa-github"
+        }
+    ],
+      "screenshots": [],
+      "screenshotsAspectRatio": "",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Factor Analysis of Wages in Tech",
+        "text": "Scraped over 1,000 job listings using <b>Python</b>, <b>Selenium</b>, and <b>Gemini AI</b>. Cleaned and processed data in Excel and R to uncover statistically significant predictors of tech wages.",
+        "tags": ["R", "Python", "Data Scraping", "Gemini AI"]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "categoryId": "category_utilities",
+    "img": "",
+     "faIcon": "fa-solid fa-chart-line",
+    "preview": {
+      "links": [],
+      "screenshots": [],
+      "screenshotsAspectRatio": "",
+      "youtubeVideo": ""
+    },
+    "locales": {
+      "en": {
+        "title": "Customer Ratings Predictor",
+        "text": "Collected Google reviews using the Places API and built a predictive model in <b>R</b> to analyze the influence of price, location, and service quality on business ratings.",
+        "tags": ["R", "Google Places API", "ML", "Predictive Modeling"]
+      }
+    }
+  }
+]
+
+           
+        }
+    ]
+}
