@@ -42,7 +42,6 @@ function ArticleTimelineItems({ dataWrapper, selectedItemCategoryId }) {
                                      key={key}/>
             ))}
 
-            <ArticleTimelineTrailingItem itemWrapper={null}/>
         </ul>
     )
 }

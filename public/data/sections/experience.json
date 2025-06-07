@@ -12,12 +12,36 @@
 
     "articles": [
         {
+    "id": 0,
+    "component": "ArticleInlineList",
+    "locales": {},
+    "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+    },
+    "items": [
+        {
+            "id": 1,
+            "label": "Salt Lake City – UT",
+            "link": {"href": "", "tooltipString": ""},
+            "faIcon": "fa-regular fa-address-book"
+        },
+        {
+            "id": 2,
+            "label": "Chhimi101@gmail.com",
+            "link": {"href": "mailto:Chhimi101@gmail.com", "tooltipString": "email_me"},
+            "faIcon": "fa-regular fa-envelope"
+        }
+    ]
+},
+        {
             "id": 1,
             "component": "ArticleTimeline",
             "locales": {},
             "settings": {
-                "order_items_by": "",
-                "order_items_sort": ""
+                "order_items_by": "id",
+                "order_items_sort": "asc"
                 
             },
            "items": [

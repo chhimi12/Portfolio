@@ -4,7 +4,7 @@
     "profilePictureUrl": "images/pictures/profile.png",
     "resumePdfUrl": "https://drive.google.com/file/d/1xEQ60m0uVMYJWYMon8OqyU-i1GZPB6CU/view?usp=sharing",
 
-    "statusCircleVisible": false,
+    "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
 
@@ -14,8 +14,7 @@
             "localized_name_stylized": " [[Chhimi {{Sherpa}}]]",
             "status_message_available_for_freelance": "Available for work!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
+                "Full Stack Developer",
                 "Data Analysis and Research"
             ]
         }
